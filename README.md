@@ -31,3 +31,8 @@ make clean
 ./tools/configure.sh -l stm32f746g-disco:lvgl
 make -j24
 ```
+
+
+```
+./tools/configure.sh -a ../myapp -l sim:lvgl_lcd
+```
